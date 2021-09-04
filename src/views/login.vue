@@ -1,12 +1,16 @@
 <template>
-	<div class="home"></div>
+	<div>
+		login
+		<el-button>test</el-button>
+	</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue"
 
 export default defineComponent({
-	name: "Home",
-	components: {}
+	setup() {
+		return {}
+	}
 })
 </script>
